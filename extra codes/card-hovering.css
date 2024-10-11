@@ -1,0 +1,14 @@
+.caard:hover{
+    transform: scaleY(1.2) !important;
+    transition: 2s;
+}
+.card-body{
+    width: 100% !important;
+    background-color: aqua;
+    transform-origin:bottom ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
