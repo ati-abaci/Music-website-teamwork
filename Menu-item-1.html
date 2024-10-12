@@ -3,10 +3,336 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Musicofy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Menu-item-1.css">
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark sticky-top px-4 px-lg-5" >
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <h1 class="m-0">
+            <img class="img-fluid me-3 logo-img" src="./images/logo (2).png" alt="website logo">
+          </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto bg-dark">
+            <a class="nav-item nav-link active" href="#">Menu Item 1</a>
+            <a class="nav-item nav-link" href="#">Menu Item 2</a>
+            <a class="nav-item nav-link" href="#">Menu Item 3</a>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu Item 4</a>
+              <div class="dropdown-menu bg-light border-0 m-0">
+                <a class="dropdown-item" href="#">Sub Menu 1</a>
+                <a class="dropdown-item" href="#">Sub Menu 2</a>
+                <a class="dropdown-item" href="#">Sub Menu 3</a>
+                <a class="dropdown-item" href="#">Sub Menu 4</a>
+              </div>
+            </div>
+            <a class="nav-item nav-link" href="#">Menu Item 5</a>
+          </div>
+        </div>
+        <a href="" class="btn btn-primary px-3 d-none d-lg-block button-nav">Sign In</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="w-100" src="./images/Hero-img-1.jpg" alt="concert">
+              <div class="carousel-caption hero-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <h1 class="display-3 text-light hero-header">
+                        Dive into the Music
+                      </h1>
+                      <p class="fs-5 text-body mb-5 hero-para">
+                        Discover Upcoming concerts and buy the tickets now.
+                      </p>
+                      <a href="#upcoming-concerts" class="btn btn-primary py-3 px-5 hero-btn">Let's see</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="./images/hero-img-2.jpg" alt="hero Image">
+              <div class="carousel-caption hero-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <h1 class="display-3 text-light hero-header">
+                        Discover The New Albums
+                      </h1>
+                      <p class="fs-5 text-body mb-5 hero-para">
+                        We are updated to every single new album from any singer 
+                        from all over the world
+                      </p>
+                      <a href="#" class="btn btn-primary py-3 px-5 hero-btn">Let's discover</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- card section -->
+      <div class="container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5" id="upcoming-concerts">Upcoming Concerts</h1>
+        </div>
+        <div class="row">
+          <!-- Imagine Dragon's card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item rounded h-100 p-5 Imagine-dragons-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid Imagine-dragons-name" src="./images/Imagine-dragons-name.png" alt="Imagine dragons name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">25th - 26th July 2025</h4>
+              </div>
+              <p class="mb-4 Imagine-dragons-text">
+                Imagine Dragons are an American pop rock band formed in 2008, based in Las Vegas, Nevada, and currently consisting of lead singer Dan Reynolds, guitarist Wayne Sermon, and bassist Ben McKee.
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="">Read More</a>
+            </div>
+          </div>
+          <!-- Imagine Dragon's card ended -->
+          <!-- Kina's card -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item rounded h-100 p-5 kina-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid kina-name" src="./images/Kina-name.png" alt="kina name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">4th July - 17th August 2025</h4>
+              </div>
+              <p class="mb-4 kina-card-text">
+                25-year-old Kina is a producer from Naples, Italy. His single “Get You The Moon” was released in 2018 and continues to grow worldwide, connecting fans all over the world with his signature emotional, vibey sound. 
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="#">Resrve now</a>
+            </div>
+          </div>
+          <!-- Kina's card ended -->
+          <!-- Coldplay's card -->
+          <div class="col-lg-4 col-md-6 ">
+            <div class="service-item rounded h-100 p-5 coldplay-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid coldplay-name" src="./images/coldplay-name.png" alt="coldplay name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">8th - 31st August 2025</h4>
+              </div>
+              <p class="mb-4 coldplay-card-text">
+                Coldplay is a British rock band known for their anthemic songs and emotionally charged lyrics. Formed in 1996, their music has achieved worldwide success, solidifying their status as one of the most popular bands of the 21st century. 
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="#">Reserve now</a>
+            </div>
+          </div>
+          <!-- Coldplay's card ended -->
+          <!-- Billie's card -->
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="service-item rounded h-100 p-5 Billie-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid Billie-name" src="./images/Billie-Eilish-name.png" alt="Billie name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">3rd August 2024</h4>
+              </div>
+              <p class="mb-4 Billie-text">
+                Billie Eilish is an American singer and songwriter born in Los Angeles in 2001. She rose to fame in 2015 with her debut single "Ocean Eyes," and has since become a global pop sensation known for her dark and introspective lyrics. 
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="#">Reserve now</a>
+            </div>
+          </div>
+          <!-- Billie's card ended -->
+          <!-- Dua's card -->
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="service-item rounded h-100 p-5 Dua-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid Dua-name" src="./images/Dua-Lipa-name.png" alt="Dua lipa name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">8th - 31st August 2025</h4>
+              </div>
+              <p class="mb-4 Dua-text">
+                Dua Lipa is a British singer and songwriter born in London. She rose to fame in 2017 with her self-titled debut album, which featured hit singles like "New Rules" and "IDGAF." Her music is a blend of pop, R&B. 
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="#">Reserve now</a>
+            </div>
+          </div>
+          <!-- Dua's card ended -->
+          <!-- Taylor's card -->
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="service-item rounded h-100 p-5 Taylor-card">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon me-4">
+                  <img class="img-fluid Taylor" src="./images/Taylor-swift-name.png" alt="Taylor Swift name">
+                </div>
+                <h4 class="mb-0 upcoming-concerts-card-title">31st August 2025</h4>
+              </div>
+              <p class="mb-4 Taylor-text">
+                Taylor Swift is an American singer known for her pop and country music. She began her career at a young age and achieved massive success with hits like "Shake It Off" and "Love Story." 
+              </p>
+              <a class="btn btn-light px-3 card-btn" href="#">Reserve now</a>
+            </div>
+          </div>
+          <!-- Taylor's card ended -->
+        </div>
+      </div>
+      <!-- card section ended -->
+       
+      
+      <div class="container-fluid Newsletter">
+        <div class="container py-5">
+          <div class="row g-5">
+            <!-- profile -->
+            <div class="col-lg-6">
+              <h1 class="display-6 text-white mb-5 form-header">
+                Newsletter
+              </h1>
+              <p class="text-white mb-5 form-para">
+                If you want us to inform you every new album or concert by email or notification please complete the form below or be in touch with us by the phone number given
+              </p>
+              <div class="bg-dark rounded p-3 profile-container">
+                <div class="d-flex align-items-center bg-dark rounded p-3">
+                  <img class=" rounded-circle me-3 profile-img" src="./images/Samanta-inkwell.jpeg" alt="profile">
+                  <h5 class="text-white mb-0 profile-name-num">Samanta inkwell: +1 4300767574</h5>
+                </div>
+              </div>
+            </div>
+            <!-- profile ended -->
+            <!-- form -->
+            <div class="col-lg-6">
+              <div class="bg-white rounded p-5 form">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="gname" placeholder="Name">
+                        <label for="gname">First Name</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="gmail" placeholder="Gurdian Email">
+                        <label for="gmail">Last Name</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="cname" placeholder="Child Name">
+                        <label for="cname">Country</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="cage" placeholder="Child Age">
+                        <label for="cage">City</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
+                        <label for="message">Description</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary py-3 px-5 form-btn" type="submit" style="background-color: #b29864; border: none; transition: all 1s;">
+                        Register now
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- form ended -->
+      <!--New Albums start  -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center mx-auto" style="max-width: 500px">
+            <h1 class="display-6 mb-5 new-albums-header">New Albums</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="rounded">
+                <img class="img-fluid rounded" src="./images/hit-me-hard-soft.jpg" alt="album photo" style="width: 300px; height:300px;">
+                <div class="text-center p-4">
+                  <h5 style="color: bisque; font-family:DianaWebber-serif-DEMO;">Hit Me Hard and Soft</h5>
+                  <span style="color: bisque; font-family:DianaWebber-serif-DEMO;">Billie Eilish</span>
+                </div>
+              </div>
+              <div class="hover-card-text text-center">
+                <h5 style="color: bisque; font-family:DianaWebber-serif-DEMO;">Hit Me Hard and Soft</h5>
+                <span style="color: bisque; font-family:DianaWebber-serif-DEMO;">Billie Eilish</span>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="rounded">
+                <img class="img-fluid rounded" src="https://fakeimg.pl/500x500/" alt="">
+                <div class="text-center p-4">
+                  <h5>Lorem, ipsum.</h5>
+                  <span>Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="rounded">
+                <img class="img-fluid rounded" src="https://fakeimg.pl/500x500/" alt="">
+                <div class="text-center p-4">
+                  <h5>Lorem, ipsum.</h5>
+                  <span>Lorem.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+              <div class="rounded">
+                <img class="img-fluid rounded" src="" alt="album photo">
+                <div class="text-center p-4">
+                  <h5>Lorem, ipsum.</h5>
+                  <span>Lorem.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- New Albums ended -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    
+    
     
 
 

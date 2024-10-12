@@ -1,0 +1,275 @@
+@font-face {
+    font-family:Peristiwa;
+    src: url(./Fonts/Peristiwa.otf);
+}
+
+@font-face {
+    font-family:DianaWebber-serif-DEMO ;
+    src: url(./Fonts/DianaWebber\ serif\ DEMO.ttf);
+}
+
+@font-face {
+    font-family:BrightwallPersonalUse-d9KgV;
+    src: url(./Fonts/BrightwallPersonalUse-d9KgV.ttf);
+}
+.logo-img{
+    width: 250px;
+    height: 100px;
+
+}
+
+body{
+    background-color: #000;
+}
+
+.button-nav{
+    background-color:#FD8B51;
+    color: black !important;
+    border: none;
+    transition: all 1s;
+}
+
+.button-nav:hover{
+    background-color:bisque;
+    color: black !important;
+    transform: scale(1.3);
+}
+
+
+nav a{
+    font-family: Helvetica, sans-serif;
+    color:#898989 !important;
+    transition: all 1s;
+}
+
+nav a:hover{
+    color: #FFAD60 !important;
+    transform: scale(1.1);
+}
+
+.hero-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+.hero-para{
+    color: aliceblue !important;
+    font-family: DianaWebber-serif-DEMO;
+    margin-top: 30px;
+}
+
+.hero-text{
+    top: 90px;
+    bottom: auto;
+}
+
+.hero-btn{
+    font-family:BrightwallPersonalUse-d9KgV;
+    background-color:#B17457;
+    border: none;
+    transition: all 1s;
+}
+
+.hero-btn:hover{
+    background-color:#705C53;
+    transform: scale(1.1);
+    border: none;
+}
+
+#upcoming-concerts{
+    margin-top: 30px;
+    font-family:BrightwallPersonalUse-d9KgV;
+    color:#db8157;
+}
+
+.upcoming-concerts-card-title{
+    color: wheat;
+    text-align-last:center ;
+    font-family:DianaWebber-serif-DEMO ;
+}
+
+.card-btn{
+    background-color: antiquewhite !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kina-card{
+    background-image: url(./images/kina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kina-name{
+    width: 64px;
+    height: 64px;
+}
+
+.kina-card-text{
+    margin-top: 250px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+    text-align: center;
+}
+
+.coldplay-card{
+    background-image: url(./images/coldplay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.coldplay-name{
+    width: 64px;
+    height: 64px;
+}
+
+.coldplay-card-text{
+    text-align: center;
+    margin-top: 250px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.Imagine-dragons-card{
+    background-image: url(./images/Imagine-dragons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Imagine-dragons-name{
+    width: 150px;
+    height: 64px;
+}
+
+.Imagine-dragons-text{
+    text-align: center;
+    margin-top: 270px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.Billie-card{
+    background-image: url(./images/Billie-Eilish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Billie-name{
+    width: 100px;
+    height: 40px;
+}
+
+.Billie-text{
+    text-align: center;
+    margin-top: 290px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.Dua-card{
+    background-image: url(./images/Dua-lipa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Dua-name{
+    width: 100px;
+    height: 40px;
+}
+
+.Dua-text{
+    text-align: center;
+    margin-top: 270px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.Taylor-card{
+    background-image: url(./images/Taylor-swift.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Taylor-name{
+    width: 150px;
+    height: 64px;
+}
+
+.Taylor-text{
+    text-align: center;
+    margin-top: 310px;
+    border-radius: 5px;
+    color:wheat;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.Taylor{
+    width: 100px;
+    height: 40px;
+}
+
+
+.form-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    color:wheat !important;
+
+}
+
+.form-para{
+    font-family:DianaWebber-serif-DEMO;
+    text-align-last:left;
+}
+
+.profile-container{
+    background-color: #ECDFCC !important;
+}
+
+.profile-img{
+    width: 40px;
+    height: 50px;
+}
+
+.profile-name-num{
+    font-family:DianaWebber-serif-DEMO;
+    color: #c48162 !important;
+}
+
+.form{
+    background-color: #ECDFCC !important;
+}
+
+.form-btn:hover{
+    background-color: #cfbf9d !important;
+    transform:scale(1.1) ;
+}
+
+.new-albums-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    color:#db8157;
+}
+
+.hover-card-text{
+    display:none;
+    transition: all 1s;
+}
+
+.hover-card-text:hover{
+    display: block;
+    transform: scaleY(1.1);
+}
