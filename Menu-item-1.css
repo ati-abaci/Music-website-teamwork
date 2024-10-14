@@ -23,6 +23,7 @@ body{
 }
 
 .button-nav{
+    font-family: DianaWebber-serif-DEMO;
     background-color:#FD8B51;
     color: black !important;
     border: none;
@@ -37,7 +38,7 @@ body{
 
 
 nav a{
-    font-family: Helvetica, sans-serif;
+    font-family:DianaWebber-serif-DEMO;
     color:#898989 !important;
     transition: all 1s;
 }
@@ -98,6 +99,14 @@ nav a:hover{
     justify-content: center;
     align-items: center;
 }
+
+.card-btn:hover{
+    background-color: #db8157 !important;
+    color: wheat;
+    transform: scale(1.1);
+    border: none;
+}
+
 
 .kina-card{
     background-image: url(./images/kina.jpg);
@@ -251,11 +260,12 @@ nav a:hover{
 }
 
 .form{
-    background-color: #ECDFCC !important;
+    background-color: #d4cdc1f3 !important;
 }
 
 .form-btn:hover{
     background-color: #cfbf9d !important;
+    color: #000;
     transform:scale(1.1) ;
 }
 
@@ -264,12 +274,113 @@ nav a:hover{
     color:#db8157;
 }
 
-.hover-card-text{
-    display:none;
-    transition: all 1s;
+.card-text{
+    flex-direction: column;
 }
 
-.hover-card-text:hover{
-    display: block;
-    transform: scaleY(1.1);
+.downtoup-card-text{
+    display: none;
+    border-radius: 10px;
+    width: 100%;
 }
+
+.card-text:hover .downtoup-card-text{
+    display: block;
+    transform: translateY(-150px);
+}
+
+.share-btn:hover{
+    background-color: #ECDFCC;
+    color: #db8157 !important;
+
+}
+
+
+.small-carosell-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    color:#db8157;
+}
+
+.left-col{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col img{
+    border: 2px dashed #875327;
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.disc-img{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    top:10%;
+    left:50%;
+}
+
+.tune-img{
+    width: 80px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.microphone-img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+.small-carousel-inner{
+    width: 300px;
+    height: 450px;
+}
+
+
+.carousel-img img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.btn-right{
+    width: 50%;
+}
+
+.btn-left{
+    width: 50%;
+}
+
+
+footer{
+    background-color:#242425;
+    color: #db8157;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+
+.back-to-top{
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    transition: all 200ms ease-in;
+}
+
+.back-to-top:hover{
+    background-color: #ECDFCC;
+    color: #db8157;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+
