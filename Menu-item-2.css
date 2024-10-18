@@ -57,7 +57,7 @@ body{
 
 .menu{
     color: #FD8B51 !important;
-    font-family: DianaWebber-serif-DEMO;
+    font-family: BrightwallPersonalUse-d9KgV;
 }
 
 .sec1{
@@ -222,3 +222,6 @@ footer{
     font-family:DianaWebber-serif-DEMO;
 }
 
+.link{
+    text-decoration: none;
+}
