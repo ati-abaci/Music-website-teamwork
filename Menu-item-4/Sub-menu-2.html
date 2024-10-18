@@ -3,11 +3,209 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Musicofy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./sub-menu-2.css">
+  <link rel="stylesheet" href="./Menu-item-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css">
   </head>
   <body>
-    
+
+    <header>
+      <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+        <div class="row gx-0 align-items-center">
+          <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small class="fa-solid fa-phone me-2"></small>
+              <small>+91227890220</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small class="fa-regular fa-envelope-open me-2"></small>
+              <small>musicofy@gmail.com</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small class="far fa-clock me-2"></small>
+              <small>Mon - Fri : 09 AM - 09 PM</small>
+            </div>
+          </div>
+          <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center first-nav-icons">
+              <a class="text-white-50 ms-4" href=""><i class="fa-brands fa-facebook"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="fa-brands fa-twitter"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark sticky-top px-4 px-lg-5" >
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <h1 class="m-0">
+            <img class="img-fluid me-3 logo-img" src="./imges/logo (2).png" alt="website logo">
+          </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto bg-dark">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="./Menu-item-2.html" target="_blank">News</a>
+            <a class="nav-item nav-link" href="./Menu-item-3.html" target="_blank">Music Geners</a>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+              <div class="dropdown-menu bg-light border-0 m-0">
+                <a class="dropdown-item" href="./Menu-item-4/Sub-menu-1.html" target="_blank">spotify most played</a>
+                <a class="dropdown-item" href="./Menu-item-4/Sub-menu-2.html" target="_blank">sign in</a>
+                <a class="dropdown-item" href="./Menu-item-4/Sub-menu-3.html" target="_blank">Albums</a>
+                <a class="dropdown-item" href="./Menu-item-4/Sub-menu-4.html" target="_blank">About us</a>
+              </div>
+            </div>
+            <a class="nav-item nav-link" href="#">Ticket reservation</a>
+          </div>
+        </div>
+        <a href="./Menu-item-4/Sub-menu-2.html" class="btn btn-primary px-3 d-none d-lg-block button-nav">Sign In</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="hero">
+              <img class="w-100" src="./imges/IMG_0 (2).jpeg" alt="music">
+              <div class="container">
+                <div class="carousel-caption hero-text">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+              <h1 class="display-3 text-light hero-header">Join us </h1>
+            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 mb-5 hero">
+                      A Fresh start
+                    </h1>
+
+                    <p class="mb-5 hero2">
+                      By registering on our site, you will join our group of enthusiasts and get special facilities.
+                    </p>
+                    <div class="bg-light hero3 rounded p-3">
+                      <div class="d-flex align-items-center bg-white hero3 rounded p-3">
+                         <h5 class="mb-0">Call Us:+91227890220 </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-light  hero3 rounded p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-sm-6">
+                            <div class="form-floating">
+                              <input type="text" class="form-control" id="gname" placeholder="Gurdian Name">
+                              <label for="gname">Name</label>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-floating">
+                              <input type="email" class="form-control" id="gmail" placeholder="Gurdian last name">
+                              <label for="gmail">Last name</label>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-floating">
+                              <input type="text" class="form-control" id="cname" placeholder="email">
+                              <label for="cname">your Email</label>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-floating">
+                              <input type="text" class="form-control" id="cage" placeholder="Age">
+                              <label for="cage">your Age</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
+                              <label for="message">Address</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button class="btn btn-primary py-3 px-5 hero4"  type="submit">
+                              Registration
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class=" py-4 mt-5 bg-dark">
+              <div class="container">
+                  <div class="row">
+                      
+                      <div class="col-md-3">
+                          <h5>Musicofy Site</h5>
+                          <p>This site helps you to get up-to-date information about music, such as songs, albums, concerts, and music styles.</p>
+                          <div class="social-icons">
+                              <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-twitter"></i></a>
+                              <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-linkedin-in"></i></a>
+                              <a href="#" ><i class="fab fa-youtube" style="color: #db8157;"></i></a>
+                          </div>
+                      </div>
+                      
+                      <div class="col-md-3">
+                          <h5>Site address</h5>
+                          <ul class="list-unstyled">
+                              <li><i class="fas fa-phone me-2"></i> +91227890220</li>
+                              <li><i class="fas fa-envelope me-2"></i> musicofy@gmail.com</li>
+                          </ul>
+                      </div>
+                      
+                      <div class="col-md-3">
+                          <h5>Sections of the site</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="#" class="text-white link">Home</a></li>
+                              <li><a href="#" class="text-white link">News</a></li>
+                              <li><a href="#" class="text-white link">Music Geners</a></li>
+                              <li><a href="#" class="text-white link">Ticket</a></li>
+                          </ul>
+                      </div>
+                      
+                      <div class="col-md-3">
+                          <h5>Register on the site</h5>
+                          <p>For information about music news and concerts.</p>
+                          <div class="position-relative mx-auto" style="max-width: 400px">
+                              <input class="form-control bg-white w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email" />
+                                <a href="" class="btn  py-2 position-absolute top-0 end-0 mt-2 me-2 btn-footer fw-bold" style="background-color: #db8157;">Submit</a>
+          
+                            </div>
+                      </div>
+                  </div>
+                  <hr class="bg-white">
+                  <div class="text-center">
+                      <p>©Musicofy 2024</p>
+                  </div>
+              </div>
+          
+            
+          
+          </footer>
+          
+
+
 
 
 
