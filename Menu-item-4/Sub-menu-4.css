@@ -60,19 +60,27 @@ nav a:hover{
     transform: scale(1);
 }
 
-.hero-img{
-    background-image: url(../images/about-us.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .hero-header-text{
-    color:rgb(245, 215, 159) !important;
+    color:#ea7037 !important;
     font-family:BrightwallPersonalUse-d9KgV;
     
 }
 
+.hero-img{
+    background-image: url(../images/bout-us.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.hero-img img{
+    width: 400px;
+    height: 200px;
+
+}
 
 .hero-ol a{
     text-decoration: none;
@@ -121,7 +129,7 @@ nav a:hover{
 }
 
 .microphone-img{
-    width: 60px;
+    width: 50px;
     height: 60px;
     display: flex;
     position: absolute;
@@ -139,8 +147,7 @@ nav a:hover{
 .carousel-img img{
     width: 150px;
     height: 150px;
-    padding: 10px;
-    background-color:#e0a082c0;
+    
 }
 
 .btn-right{
@@ -151,6 +158,26 @@ nav a:hover{
     width: 50%;
 }
 
+footer{
+    background-color:#242425;
+    color: #db8157;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+
+.back-to-top{
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    transition: all 200ms ease-in;
+}
+
+.back-to-top:hover{
+    background-color: #ECDFCC;
+    color: #db8157;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
 
 
 
