@@ -1,0 +1,214 @@
+
+@font-face {
+    font-family:DianaWebber-script-DEMO ;
+    src: url(../Fonts/DianaWebber\ script\ DEMO.ttf);
+}
+
+@font-face {
+    font-family:DianaWebber-serif-DEMO;
+    src: url(../Fonts/DianaWebber\ serif\ DEMO.ttf);
+}
+
+@font-face {
+    font-family:BrightwallPersonalUse-d9KgV;
+    src: url(../Fonts/BrightwallPersonalUse-d9KgV.ttf);
+}
+
+.logo-img{
+    width: 250px;
+    height: 100px;
+
+}
+
+body{
+    background-color: #000;
+}
+
+.first-nav-icons a:hover{
+    color: #FD8B51 !important;
+
+}
+
+.button-nav{
+    font-family: DianaWebber-serif-DEMO;
+    background-color:#FD8B51;
+    color: black !important;
+    border: none;
+    transition: all 1s;
+}
+
+.button-nav:hover{
+    background-color:bisque;
+    color: black !important;
+    transform: scale(1.3);
+}
+
+
+.navbar-nav a{
+    font-family:DianaWebber-serif-DEMO;
+    color:#898989 !important;
+    transition: all 1s;
+}
+
+nav a:hover{
+    color: #FFAD60 !important;
+    transform: scale(1.1);
+}
+
+.dropdown-menu a:hover{
+    color: #FFAD60 !important;
+    transform: scale(1);
+}
+
+.hero-img{
+    background-image: url(../images/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-header-text{
+    color:rgb(245, 215, 159) !important;
+    font-family:BrightwallPersonalUse-d9KgV;
+    
+}
+
+
+.hero-ol a{
+    text-decoration: none;
+    color: aliceblue !important;
+}
+
+.hero-ol :nth-child(3){
+    color: #FD8B51;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.small-carosell-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    color:#db8157;
+}
+
+.left-col{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col img{
+    border: 2px dashed #875327;
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.disc-img{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    top:10%;
+    left:50%;
+}
+
+.tune-img{
+    width: 80px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.microphone-img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+
+
+.small-carousel-inner{
+    width: 300px;
+    height: 450px;
+}
+
+
+.carousel-img img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color:#e0a082c0;
+}
+
+.btn-right{
+    width: 50%;
+}
+
+.btn-left{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back-to-top{
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    transition: all 200ms ease-in;
+}
+
+.back-to-top:hover{
+    background-color: #ECDFCC;
+    color: #db8157;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
