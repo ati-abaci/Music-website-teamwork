@@ -3,27 +3,246 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Musicofy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./menu-item3-files/menu-item-3.css">
   </head>
   <body>
+    <header>
+    <!-- upside of navbar -->
+      <div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+        <div class="row gx-0 align-items-center">
+          <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small><i class="bi bi-telephone"></i>-</small>
+              <small>09121234567</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small><i class="bi bi-envelope"></i>-</small>
+              <small><e-mail>rasa001381@gmail.com</e-mail></small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+              <small><i class="bi bi-calendar"></i>-</small>
+              <small><time datetime="1914-12-20 08:30:45">2024-12-20 08:30:45</time></small>
+            </div>
+          </div>
+          <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center first-nav-icons">
+              <a class="text-white-50 ms-4" href=""><i class="bi bi-facebook"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="bi bi-twitter"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="bi bi-linkedin"></i></a>
+              <a class="text-white-50 ms-4" href=""><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img class="logo-img img-fluid" src="./menu-item3-files/logo.png" alt="logo">
+      </a>
+      <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0 bg-dark">
+          <a class="nav-item nav-link text-danger" href="/">Home</a>
+          <a class="nav-item nav-link text-danger" href="/about">News</a>
+          <a class="nav-item nav-link active text-danger" href="/service">Music Geners</a>
+          <div class="nav-item dropdown ">
+            <a href="#" class="nav-link dropdown-toggle text-danger" data-bs-toggle="dropdown">More</a>
+            <div class="dropdown-menu bg-dark border-0 m-0" id="item-f">
+              <a class="dropdown-item text-danger" href="/feature">spotify most played</a>
+              <a class="dropdown-item text-danger" href="/appointment">sign in</a>
+              <a class="dropdown-item text-danger" href="/team">Albums</a>
+              <a class="dropdown-item text-danger" href="/testimonial">About us</a>
+            </div>
+          </div>
+          <a class="nav-item nav-link text-danger" href="/contact">ticket reservation</a>
+        </div>
+      </div>
+      <a href="" class="btn btn-outline-danger sign-in-btn">sign in</a>
+    </nav>
+    </header>
+    <main>
+      <div class="main-part ">
+        <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+      </div>
+         <div class="container py-5">
+            <h1 class="display-4 animated slideInDown mb-4" id="main-header">Find your music style here</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item filtering text-white-50"><a href="#">Menu Item</a></li>
+                <li class="breadcrumb-item filtering text-white-50"><a href="#">Menu Item</a></li>
+                <li class="breadcrumb-item filtering active text-white-50" aria-current="page">Menu Item</li>
+              </ol>
+            </nav>
+          </div>
+      </div>
+      <div class="divider"></div>
+      <div class="main-main-part container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5 text-white-50 geners-heading">
+            Music genres
+          </h1>
+        </div>
+        <div class="row g-4 container d-flex justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5 styling-one">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid lets-rock" src="./menu-item3-files/lets rock.png" alt="">
+                </div>
+                <h4 class="mb-0 rock-title">Rock</h4>
+              </div>
+              <p class="mb-4 text-white-50">
+                Rock music, born in the 1950s, blends blues, rhythm, and country, featuring strong beats and electric guitar riffs. It’s a genre of rebellion and cultural influence, with bands like The Beatles and Nirvana shaping its legacy. 🎸
+              </p>
+              <a class="btn btn-outline-danger" href="https://soundcloud.com/rockplaylists">listen</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.3s">
+            <div class="service-item rounded h-100 p-5 styling-two">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid blues" src="./menu-item3-files/blues.png" alt="">
+                </div>
+                <h4 class="mb-0 blues-title">Blues</h4>
+              </div>
+              <p class="mb-4 text-white-50">
+                Blues music is rooted in the Deep South and is full of emotion and soul. It's known for its blue notes, call-and-response patterns, and themes of struggle. Icons like B.B. King made it famous with soulful guitar riffs and heartfelt vocals. 🎶
+              </p>
+              <a class="btn btn-outline-light" href="https://m.soundcloud.com/pjsteman/blues-playlist?in=yuri-stormovski/sets/blues">listen</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.5s">
+            <div class="service-item rounded h-100 p-5 styling-three">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid country" src="./menu-item3-files/country.png" alt="">
+                </div>
+                <h4 class="mb-0 jazz-title">Jazz</h4>
+              </div>
+              <p class="mb-4">
+                Jazz music, born in African American communities, thrives on improvisation and expression. With swing notes and complex chords, icons like Louis Armstrong shaped its evolving sound. 🎷
+              </p>
+              <a class="btn btn-outline-warning" href="https://soundcloud.com/jazzhopcafe">listen</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5 styling-four">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid pop" src="./menu-item3-files/pop.png" alt="">
+                </div>
+                <h4 class="mb-0 pop-title">Pop</h4>
+              </div>
+              <p class="mb-4 text-white-50">
+                Pop music is catchy, with simple structures and relatable lyrics, evolving since the mid-20th century. Icons like Michael Jackson made it huge. 🎤
+              </p>
+              <a class="btn btn-outline-success" href="https://soundcloud.com/idla/sets/pop-playlist-2020">listen</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.3s">
+            <div class="service-item rounded h-100 p-5 styling-five">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid hip-hop" src="./menu-item3-files/hip-hop.png" alt="">
+                </div>
+                <h4 class="mb-0 hip-hop-title">Hip-Hop</h4>
+              </div>
+              <p class="mb-4 text-white-50">
+                Hip hop music began in the 1970s in the Bronx with rapping, DJing, and breakdancing, known for beats and impactful lyrics. Icons like Tupac shaped its evolution. 🎤
+              </p>
+              <a class="btn btn-outline-info" href="https://soundcloud.com/charts/top?genre=hiphoprap">listen</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp mb-5" data-wow-delay="0.5s">
+            <div class="service-item rounded h-100 p-5 styling-six">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                  <img class="img-fluid deep-house" src="./menu-item3-files/deep house.png" alt="">
+                </div>
+                <h4 class="mb-0 text-white-50">Deep House</h4>
+              </div>
+              <p class="mb-4 text-white-50">
+                Deep house originated in the 1980s, featuring smooth melodies, deep basslines, and influences from jazz, funk, and soul. It creates a relaxing, immersive vibe for listeners. 🎶
+              </p>
+              <a class="btn btn-outline-secondary" href="https://soundcloud.com/discover/sets/charts-top:deephouse:de">listen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="divider-two"></div>
+    <footer class=" py-4 mt-5">
+      <div class="container">
+          <div class="row">
+              
+              <div class="col-md-3">
+                  <h5>Musicofy Site</h5>
+                  <p>This site helps you to get up-to-date information about music, such as songs, albums, concerts, and music styles.</p>
+                  <div class="social-icons">
+                      <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class=" me-2" style="color: #db8157;"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#" ><i class="fab fa-youtube" style="color: #db8157;"></i></a>
+                  </div>
+              </div>
+              
+              <div class="col-md-3">
+                  <h5>Site address</h5>
+                  <ul class="list-unstyled">
+                      <li><i class="fas fa-phone me-2"></i> +91227890220</li>
+                      <li><i class="fas fa-envelope me-2"></i> musicofy@gmail.com</li>
+                  </ul>
+              </div>
+              
+              <div class="col-md-3">
+                  <h5>Sections of the site</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white link">Home</a></li>
+                      <li><a href="#" class="text-white link">News</a></li>
+                      <li><a href="#" class="text-white link">Music Geners</a></li>
+                      <li><a href="#" class="text-white link">Ticket</a></li>
+                  </ul>
+              </div>
+              
+              <div class="col-md-3">
+                  <h5>Register on the site</h5>
+                  <p>For information about music news and concerts.</p>
+                  <div class="position-relative mx-auto" style="max-width: 400px">
+                      <input class="form-control bg-white w-100 py-3 ps-4 pe-5" type="text"
+                        placeholder="Enter your email" />
+                        <a href="" class="btn  py-2 position-absolute top-0 end-0 mt-2 me-2 btn-footer fw-bold" style="background-color: #db8157;">Submit</a>
+  
+                    </div>
+              </div>
+          </div>
+          <hr class="bg-white">
+          <div class="text-center">
+              <p>©Musicofy 2024</p>
+          </div>
+      </div>
+  
+    <!--  -->
+  
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
