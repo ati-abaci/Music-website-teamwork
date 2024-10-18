@@ -225,3 +225,17 @@ footer{
 .link{
     text-decoration: none;
 }
+
+.back-to-top{
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    transition: all 200ms ease-in;
+}
+
+.back-to-top:hover{
+    background-color: #ECDFCC;
+    color: #db8157;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
