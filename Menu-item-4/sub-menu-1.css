@@ -1,16 +1,16 @@
 @font-face {
     font-family:Peristiwa;
-    src: url(./Fonts/Peristiwa.otf);
+    src: url(../font/Peristiwa.otf);
 }
 
 @font-face {
     font-family:DianaWebber-serif-DEMO ;
-    src: url(./Fonts/DianaWebber\ serif\ DEMO.ttf);
+    src: url(../font/DianaWebber\ serif\ DEMO.ttf);
 }
 
 @font-face {
     font-family:BrightwallPersonalUse-d9KgV;
-    src: url(./Fonts/BrightwallPersonalUse-d9KgV.ttf);
+    src: url(../font/BrightwallPersonalUse-d9KgV.ttf);
 }
 *{
     box-sizing: border-box;
@@ -50,11 +50,26 @@
 main{
     background-color: black;
 }
+.main-title{
+    color: goldenrod;
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+.main-para{
+    font-family: DianaWebber-serif-DEMO;
+    color: aliceblue;
+}
 .hero-one{
     background-image: url(./sub-menu-1-files/1729266308330.jpg);
+    background-color: #000000;
     background-size: cover;
     margin-bottom: 0;
     height: 100%;
+}
+.hero-one-title{
+    font-family: Peristiwa;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
 }
 section{
     background-color: black;
@@ -102,6 +117,10 @@ section{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+.card-text{
+    font-family: DianaWebber-serif-DEMO;
+    color: rgb(255, 255, 255);
 }
 /* -------------------------- */
 footer{
