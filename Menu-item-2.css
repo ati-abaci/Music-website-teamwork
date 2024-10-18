@@ -1,0 +1,227 @@
+@font-face {
+    font-family:Peristiwa;
+    src: url(./font/Peristiwa.otf);
+}
+
+
+@font-face {
+    font-family:BrightwallPersonalUse-d9KgV;
+    src: url(./font/BrightwallPersonalUse-d9KgV.ttf);
+}
+
+.logo-img{
+    width: 250px;
+    height: 100px;
+}
+
+.button-nav{
+    font-family: DianaWebber-serif-DEMO;
+    background-color:#FD8B51;
+    color: black !important;
+    border: none;
+    transition: all 1s;
+}
+
+.button-nav:hover{
+    background-color:bisque;
+    color: black !important;
+    transform: scale(1.3);
+}
+
+nav a{
+    font-family:DianaWebber-serif-DEMO;
+    color:#898989 !important;
+    transition: all 1s;
+}
+
+nav a:hover{
+    color: #FFAD60 !important;
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #FD8B51 !important; 
+}
+
+body{
+    background-color: black;
+}
+
+.page-header{
+    background-image: url(./image/6.webp);
+   width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    color: #FD8B51 !important;
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+
+.sec1{
+    background-color: #FD8B51  !important;
+  
+}
+.sec2{
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+.sec1{
+    font-family:  BrightwallPersonalUse-d9KgV;
+    margin-left: -15px;
+}
+.head{
+font-family: BrightwallPersonalUse-d9KgV;
+color: #FD8B51 ;
+}
+
+.para{
+    font-family: DianaWebber-serif-DEMO;
+    color: beige !important;
+}
+
+.imag{
+    width: 64px;
+    height: 64px;
+}
+
+.item1{
+    color: #FD8B51  !important;
+    font-family: DianaWebber-serif-DEMO;
+}
+.item2{
+    color: #FD8B51  !important;
+   margin-left: 10px;
+   font-family: DianaWebber-serif-DEMO;
+}
+span{
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+
+.para1{
+    font-family: BrightwallPersonalUse-d9KgV;
+    color:  #FD8B51 !important;
+    font-size: 25px;
+}
+
+.itm1{
+    color: bisque !important;
+}
+
+.item5{
+    /* background-color: rgb(49, 99, 82) !important; */
+    font-family: Peristiwa;
+    padding-top: 48px;
+    
+}
+
+.sec3{
+    /* background-color: bisque !important; */
+    padding: 5px !important;
+}
+
+.head2{
+    color: #FD8B51 !important;
+    font-family: BrightwallPersonalUse-d9KgV;
+    text-align: center;
+ font-size: 30px;
+ line-height: 60px;
+ }
+ 
+ .para2{
+     color: beige  !important;
+    font-family: DianaWebber-serif-DEMO;
+    font-size: 20px;
+ }
+ 
+ .s1{
+     font-family: Peristiwa;
+ }
+ 
+ .buttn{
+    font-family: DianaWebber-serif-DEMO;
+    background-color:beige;
+    color: #FD8B51 !important;
+    border: none;
+    transition: all 1s;
+ }
+
+ .buttn:hover{
+    background-color:#FD8B51 !important;
+    color: black !important;
+    transform: scale(1.3);
+ }
+
+ .image{
+    width: 400px;
+    height: 400px;
+  
+}
+
+.item7{
+    transition: 4s;
+    
+}
+.item6:hover{
+    background-color: #FD8B51 !important;
+    transform: scaleY(1.5);
+    transform-origin: bottom;
+}
+
+.para3{
+    color: #FD8B51 !important;
+    font-family: BrightwallPersonalUse-d9KgV;
+    line-height: 60px;
+}
+
+.name{
+color: white !important;
+font-family: BrightwallPersonalUse-d9KgV ;
+font-weight: bold;
+}
+
+.music{
+    color: beige;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.item3{
+    background-color: #FD8B51;
+}
+
+
+
+.flash1{
+    background-color: beige !important;
+}
+
+
+
+.downtoup-card-text{
+    display: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-text:hover .downtoup-card-text{
+    display: block;
+    transform: translateY(-150px);
+}
+
+.btn-1:hover{
+    background-color: #ECDFCC;
+    color: #db8157 !important;
+
+}
+
+footer{
+    background-color:#242425;
+    color: #db8157;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.link{
+    text-decoration: none;
+}
