@@ -373,6 +373,10 @@ footer{
     font-family:DianaWebber-serif-DEMO;
 }
 
+.link{
+    text-decoration: none;
+}
+
 
 .back-to-top{
     display: flex;
