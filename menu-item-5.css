@@ -1,0 +1,108 @@
+@font-face {
+    font-family:BrightwallPersonalUse-d9KgV;
+    src: url(./Fonts/BrightwallPersonalUse-d9KgV.ttf);
+}
+@font-face {
+    font-family:DianaWebber-Script-DEMO ;
+    src: url(./Fonts/DianaWebber\ Script\ DEMO.ttf);
+}
+@font-face {
+          font-family:BrightwallPersonalUse-d9KgV;
+          src: url(./Fonts/BrightwallPersonalUse-d9KgV.ttf);
+}
+
+.logo-img{
+    width: 250px;
+    height: 100px;
+
+}
+
+body{
+    background-color: #000;
+}
+.first-nav-icons a:hover{
+    color: #FD8B51 !important;
+
+}
+.button-nav{
+    background-color:#FD8B51;
+    color: black !important;
+    border: none;
+    transition: all 1s;
+}
+
+.button-nav:hover{
+    background-color:bisque;
+    color: black !important;
+    transform: scale(1.3);
+}
+
+
+nav a{
+    font-family: Helvetica, sans-serif;
+    color:#898989 !important;
+    transition: all 1s;
+}
+
+nav a:hover{
+    color: whitesmoke !important;
+    transform: scale(1.1);
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/IMG_.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-header{
+    font-family:BrightwallPersonalUse-d9KgV;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+.hero-para{
+    color: aliceblue !important;
+    font-family: DianaWebber-serif-DEMO;
+    margin-top: 30px;
+}
+.hero-text{
+    top: 90px;
+    bottom: auto;
+}
+.hero{
+    color: white !important;
+    font-weight: bolder;
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+.hero2{
+    color:  #db8157 !important;
+    font-family: BrightwallPersonalUse-d9KgV;
+}
+.hero3{
+    color: whitesmoke !important;
+    font-family: DianaWebber-serif-DEMO;
+}
+.hero4{
+    background-color:  #db8157 !important;
+    border: solid  #db8157 !important;
+}
+.hero4:hover{
+    transform: scale(1.4);
+    background-color: black !important;
+
+}
+footer{
+    background-color:#242425;
+    color: #db8157;
+    font-family:DianaWebber-serif-DEMO;
+}
+
+.link{
+    text-decoration: none;
+}
